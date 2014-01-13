@@ -1,13 +1,13 @@
 ocz-revodrive-2.6-proxmox
 =========================
 
-Support for OCZ RevoDrive3, RevoDrive3 X2, zDrive R4 in Proxmox
+Support for OCZ RevoDrive3, RevoDrive3 X2, zDrive R4 in Proxmox is possible. This repository contains all the information needed to patch your kernel and backport RevoDrive support in the stable 2.6.32 Proxmox kernel (The only one with OpenVZ support at the time of writing, Gen 2014).
 
-# Creating a patch
+## Creating a patch
 
 diff -Naur linux-source-2.6.32-openvz-042stab084.14-amd64 linux-source-2.6.32-openvz-042stab084.14-amd64-ocz > ocz.patch
 
-# The original request
+## The original request
 
 This patch request uis the first one on the proxmox/pve-kernel-2.6.32 repository! You can read the original message on https://github.com/proxmox/pve-kernel-2.6.32/issues/1 or below.
 
